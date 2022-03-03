@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(218, 23%, 16%);
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    margin: 0 auto;
+    padding: 40px 35px;
+    width: 100%;
+    max-width: 500px;
+    background-color: hsl(218, 20%, 24%);
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.3);
+}
+
+.title {
+    font-size: 14px;
+    color: hsl(150, 100%, 66%);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.advice {
+    font-size: 28px;
+    font-weight: 800;
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+
+.divider-wrapper {
+    width: 100%;
+    margin: 0 0 15px 0;
+}
+
+.divider-wrapper > img {
+    width: 100%;
+    height: auto;
+}
+
+.dice {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    bottom: -32px;
+    transform: translateX(-50%);
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: hsl(150, 100%, 66%);
+    transition: all 0.1s ease-in-out;
+}
+
+.dice:hover {
+    box-shadow: 2px 2px 15px hsl(150, 100%, 66%),
+        -2px -2px 25px hsl(150, 100%, 66%);
+}
+
+.dice:disabled {
+    cursor: not-allowed;
+    background-color: hsl(150, 20%, 66%);
+}
