@@ -9,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: hsl(218, 23%, 16%);
+    margin: 0;
 }
 
 .container {
