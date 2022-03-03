@@ -10,6 +10,7 @@ body {
     align-items: center;
     background-color: hsl(218, 23%, 16%);
     margin: 0;
+    padding: 14px;
 }
 
 .container {
