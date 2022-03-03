@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/advice-generator-app-challenge-built-with-reactjs-_xZuVQwhE)
--   Live Site URL: [Add live site URL here](https://frontend-mentor-advice-generator-challenge.vercel.app/)
+-   Solution URL: [solution URL](https://www.frontendmentor.io/solutions/advice-generator-app-challenge-built-with-reactjs-_xZuVQwhE)
+-   Live Site URL: [live site URL](https://frontend-mentor-advice-generator-challenge.vercel.app/)
 
 ## My process
 
