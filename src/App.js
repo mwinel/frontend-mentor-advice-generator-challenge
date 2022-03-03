@@ -28,12 +28,13 @@ export default function App() {
     }, [fetchData]);
 
     return (
+        <main>
         <div className="container">
             <Card
                 number={advice.slip.id}
                 advice={advice.slip.advice}
                 handleFetchAdvice={handleFetchAdvice}
             />
-        </div>
+        </div></main>
     );
 }
