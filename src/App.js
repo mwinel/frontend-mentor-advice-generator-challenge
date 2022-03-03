@@ -29,12 +29,13 @@ export default function App() {
 
     return (
         <main>
-        <div className="container">
-            <Card
-                number={advice.slip.id}
-                advice={advice.slip.advice}
-                handleFetchAdvice={handleFetchAdvice}
-            />
-        </div></main>
+            <div className="container">
+                <Card
+                    number={advice.slip.id}
+                    advice={advice.slip.advice}
+                    handleFetchAdvice={handleFetchAdvice}
+                />
+            </div>
+        </main>
     );
 }

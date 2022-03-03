@@ -4,7 +4,7 @@ export default function Card({ number, advice, handleFetchAdvice }) {
     return (
         <>
             <div className="card">
-                <h3 className="title">ADVICE #{number}</h3>
+                <h1 className="title">ADVICE #{number}</h1>
                 <p className="advice">"{advice}"</p>
                 <div className="divider-wrapper">
                     <img
